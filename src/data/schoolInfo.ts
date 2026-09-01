@@ -16,7 +16,7 @@ export const SCHOOL_INFO: SchoolContextData = {
   levelSpan: 'Nursery Onward',
   location: {
     address: 'Near High School, Nawabshah Road, Sanghar',
-    landmark: 'Government High School Campus vicinity',
+    landmark: 'Near Government High School',
     road: 'Nawabshah Road',
     city: 'Sanghar',
     district: 'Sanghar',
@@ -27,23 +27,23 @@ export const SCHOOL_INFO: SchoolContextData = {
 
 export const CORE_FACTS = [
   {
-    label: 'Institutional Type',
+    label: 'Institutional Status',
     value: 'Government English Medium School',
-    detail: 'State-affiliated English medium institution',
+    detail: 'State-designated English medium educational institution',
   },
   {
-    label: 'Curricular Framework',
+    label: 'Curricular System',
     value: 'Cambridge System',
-    detail: 'Modern pedagogical standards and learning progression',
+    detail: 'Standard Cambridge academic framework and learning progression',
   },
   {
-    label: 'Grade Structure',
+    label: 'Grade Span',
     value: 'Beginning from Nursery Onward',
-    detail: 'Foundation education leading to progressive secondary levels',
+    detail: 'Foundational early education progressing through grade levels',
   },
   {
-    label: 'Geographic Location',
-    value: 'Nawabshah Road, Sanghar',
-    detail: 'Central educational hub near High School, Sanghar, Sindh',
+    label: 'Campus Location',
+    value: 'Near High School, Nawabshah Road',
+    detail: 'Sanghar, Sindh, Pakistan',
   },
 ];

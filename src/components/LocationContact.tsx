@@ -56,15 +56,15 @@ export const LocationContact: React.FC = () => {
                   <Building className="w-4 h-4 text-emerald-600 dark:text-emerald-400 flex-shrink-0 mt-0.5" />
                   <div>
                     <strong className="text-zinc-900 dark:text-white block">Prominent Landmark:</strong>
-                    Located adjacent to the Government High School Sanghar campus grounds.
+                    Near Government High School, Sanghar campus grounds.
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3 text-xs text-zinc-600 dark:text-zinc-300">
-                  <Clock className="w-4 h-4 text-emerald-600 dark:text-emerald-400 flex-shrink-0 mt-0.5" />
+                  <Navigation className="w-4 h-4 text-emerald-600 dark:text-emerald-400 flex-shrink-0 mt-0.5" />
                   <div>
-                    <strong className="text-zinc-900 dark:text-white block">Administrative Visiting Hours:</strong>
-                    Monday – Saturday during standard academic morning sessions.
+                    <strong className="text-zinc-900 dark:text-white block">Main Access Corridor:</strong>
+                    Nawabshah Road, Sanghar, Sindh, Pakistan.
                   </div>
                 </div>
               </div>

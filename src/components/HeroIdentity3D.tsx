@@ -143,23 +143,25 @@ export const HeroIdentity3D: React.FC<HeroIdentity3DProps> = ({ onNavigate }) =>
               >
                 <div className="flex items-center gap-2 text-xs font-bold tracking-wider text-emerald-700 dark:text-emerald-400 uppercase">
                   <Layers className="w-4 h-4" />
-                  <span>Institutional Seal</span>
+                  <span>Institutional Identity</span>
                 </div>
                 <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300">
                   Sanghar, Sindh
                 </span>
               </div>
 
-              {/* 3D Center Shield Emblem */}
+              {/* 3D Center Monogram Emblem */}
               <div 
                 style={{ transform: prefersReducedMotion ? 'none' : 'translateZ(45px)' }}
                 className="flex flex-col items-center text-center space-y-4 py-4"
               >
-                <div className="w-24 h-24 rounded-2xl bg-gradient-to-tr from-emerald-800 via-emerald-700 to-emerald-600 p-1 flex items-center justify-center shadow-lg shadow-emerald-900/30 border-2 border-emerald-400/40">
-                  <div className="w-full h-full rounded-xl bg-zinc-950 flex flex-col items-center justify-center p-2 text-white">
-                    <GraduationCap className="w-10 h-10 text-emerald-400" />
+                <div className="w-24 h-24 rounded-2xl bg-zinc-950 dark:bg-zinc-900 p-1.5 flex items-center justify-center shadow-lg shadow-emerald-950/20 border-2 border-emerald-500/40">
+                  <div className="w-full h-full rounded-xl bg-emerald-900/90 border border-emerald-700/50 flex flex-col items-center justify-center p-2 text-white">
+                    <span className="text-2xl font-black font-mono tracking-tighter text-white">
+                      PSP
+                    </span>
                     <span className="text-[9px] font-bold tracking-widest text-emerald-300 uppercase mt-0.5">
-                      PSP EMS
+                      EMS SANGHAR
                     </span>
                   </div>
                 </div>

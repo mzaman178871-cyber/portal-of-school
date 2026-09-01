@@ -67,15 +67,16 @@ export const Header: React.FC<HeaderProps> = ({
             className="flex items-center gap-3 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600 rounded-lg p-1 transition-transform active:scale-95"
             aria-label="PSP School EMS Sanghar Home"
           >
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-emerald-600 to-emerald-800 flex items-center justify-center text-white shadow-md shadow-emerald-900/20 border border-emerald-500/30">
-              <GraduationCap className="w-6 h-6 text-white" />
+            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-lg bg-emerald-800 dark:bg-emerald-900 border border-emerald-600/40 dark:border-emerald-700 flex flex-col items-center justify-center text-white shadow-sm font-mono leading-none">
+              <span className="text-[11px] font-black tracking-tighter text-emerald-100">PSP</span>
+              <span className="text-[8px] font-bold tracking-widest text-emerald-300 uppercase">EMS</span>
             </div>
             <div>
               <div className="font-bold text-base sm:text-lg tracking-tight text-zinc-900 dark:text-white leading-tight">
                 {SCHOOL_INFO.shortName}
               </div>
               <div className="text-xs text-zinc-500 dark:text-zinc-400 font-medium">
-                Nawabshah Road, Sanghar
+                Sanghar, Sindh
               </div>
             </div>
           </button>

@@ -22,8 +22,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenPortalModal })
           {/* Institutional Brand Column */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3 text-white">
-              <div className="w-9 h-9 rounded-lg bg-emerald-700 flex items-center justify-center text-white shadow-md">
-                <GraduationCap className="w-5 h-5" />
+              <div className="w-9 h-9 rounded-lg bg-emerald-900 border border-emerald-700/60 flex flex-col items-center justify-center text-white shadow-sm font-mono leading-none">
+                <span className="text-[10px] font-black tracking-tighter text-emerald-100">PSP</span>
+                <span className="text-[7px] font-bold tracking-widest text-emerald-300 uppercase">EMS</span>
               </div>
               <div>
                 <div className="font-bold text-sm text-white">
@@ -84,7 +85,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenPortalModal })
                   className="hover:text-emerald-400 transition-colors text-left flex items-center gap-1.5"
                 >
                   <MapPin className="w-3.5 h-3.5 text-emerald-500" />
-                  <span>Campus Location & Visiting Hours</span>
+                  <span>Campus Location & Access</span>
                 </button>
               </li>
             </ul>
