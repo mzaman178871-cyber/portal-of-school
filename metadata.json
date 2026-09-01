@@ -1,0 +1,6 @@
+{
+  "name": "School Program - PSP School (EMS), Sanghar",
+  "description": "Public visitor experience and school management portal for PSP School (EMS), Sanghar, Sindh, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
